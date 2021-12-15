@@ -171,7 +171,8 @@ public class TourInfo{
     }
 
     public static void FinalPrice(int perPrice, int num, int trvl, double disc){
-        finalPrice=(perPrice*num)+(finalPrice*trvl*0.1*num); //Increment of Total Price according to Travel Mode chosen
+        finalPrice=(perPrice*num);
+        finalPrice+=(finalPrice*trvl*0.1*num); //Increment of Total Price according to Travel Mode chosen
         finalPrice+=finalPrice*0.18; //Adding GST
         finalPrice=(double)Math.round(finalPrice*100)/100;
         System.out.println("\n\t\t\t Total Price of "+num+" people:\t"+finalPrice);

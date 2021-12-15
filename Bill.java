@@ -33,10 +33,8 @@ class Bill implements ActionListener,ItemListener
 
 	Bill() 
 	{
-		
-
         Frame f=new Frame("BILL PAGE");
-	ScrollPane sp = new ScrollPane();
+	    ScrollPane sp = new ScrollPane();
 		sp.getVAdjustable().setUnitIncrement(12);
 		Panel panel = new Panel();
 		panel.setLayout(null);
@@ -206,13 +204,11 @@ class Bill implements ActionListener,ItemListener
         });   
 	}
 
-    @Override
     public void itemStateChanged(ItemEvent e) {
         // TODO Auto-generated method stub
         
     }
 
-    @Override
     public void actionPerformed(ActionEvent e) {
         // TODO Auto-generated method stub
         
