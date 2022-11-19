@@ -1,2 +1,2 @@
 # TravelPro
-A Bill-Generating Application for the Tourism Industry
+A Booking System developed using JAVA to simulate the processes of booking a tour package.
